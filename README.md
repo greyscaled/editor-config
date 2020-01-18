@@ -31,3 +31,13 @@ Otherwise, simply just copy the `.editorconfig` file to wherever you'd prefer:
 ```bash
 cp "./node_modules/@vapurrmaid/editor-config/dist/assets/.editorconfig" .
 ```
+
+## Contributions
+
+While I'm an open-source contributor and love collaboration, I use these
+configurations in my personal/hobby projects. Therefore, I'm generally
+not accepting contributions outside of security-related concerns. Please
+feel free to fork your own version or use these configurations.
+
+> I have disabled issues for this repository. If you'd like to get in touch,
+> feel free to email: vapurrmaid@pm.me

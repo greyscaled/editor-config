@@ -6,10 +6,9 @@
     "config",
     "editorconfig"
   ],
-  "homepage": "https://github.com/vapurrmaid/my-config",
+  "homepage": "https://github.com/vapurrmaid/editor-config",
   "bugs": {
-    "email": "vapurrmaid@pm.me",
-    "url": "https://github.com/vapurrmaid/my-config/issues"
+    "email": "vapurrmaid@pm.me"
   },
   "license": "MIT",
   "author": {
@@ -23,7 +22,7 @@
   "bin": "./dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vapurrmaid/my-config"
+    "url": "https://github.com/vapurrmaid/editor-config"
   },
   "scripts": {
     "prebuild": "rimraf dist",
