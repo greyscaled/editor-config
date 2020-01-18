@@ -1,5 +1,33 @@
-# Vapurrmaid's Configurations
+# @vapurrmaid/editor-config
 
-This is a monorepo containing configurations I commonly use across hobby,
-personal and some professional projects. Anyone is welcome to use these
-configs and/or fork their own. However, I'm **not** accepting contributions.
+This package installs an opinionated [`.editorconfig`](https://editorconfig.org/).
+
+## Installation
+
+### NPX (preferred)
+
+Use the following command to install `.editorconfig` in the current directory.
+
+```bash
+npx @vapurrmaid/editor-config
+```
+
+### NPM
+
+The following simply installs the assets in `node_modules`:
+
+```bash
+npm install --save-dev @vapurrmaid/editor-config
+```
+
+If you'd like to generate a `.editorconfig` in your current directory, run:
+
+```bash
+./node_modules/.bin/editor-config
+```
+
+Otherwise, simply just copy the `.editorconfig` file to wherever you'd prefer:
+
+```bash
+cp "./node_modules/@vapurrmaid/editor-config/dist/assets/.editorconfig" .
+```
