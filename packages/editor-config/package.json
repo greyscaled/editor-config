@@ -1,0 +1,41 @@
+{
+  "name": "@vapurrmaid/editor-config",
+  "version": "0.0.0",
+  "description": "Vapurrmaid's EditorConfig. See https://editorconfig.org/.",
+  "keywords": [
+    "config",
+    "editorconfig"
+  ],
+  "homepage": "https://github.com/vapurrmaid/my-config",
+  "bugs": {
+    "email": "vapurrmaid@pm.me",
+    "url": "https://github.com/vapurrmaid/my-config/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "vapurrmaid@pm.me",
+    "name": "Gregory (Grey) Barkans",
+    "url": "https://github.com/vapurrmaid"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vapurrmaid/my-config"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "postbuild": "cpy src/assets/.editorconfig dist/assets",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "cpy-cli": "^3.0.0",
+    "release-it": "^12.4.3",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.5"
+  }
+}
