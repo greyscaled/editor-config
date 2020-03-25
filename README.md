@@ -4,19 +4,29 @@ This package installs an opinionated [`.editorconfig`](https://editorconfig.org/
 
 ## Installation
 
-### NPX (preferred)
+### Using wget
 
-Use the following command to install `.editorconfig` in the current directory.
+```bash
+wget https://raw.githubusercontent.com/vapurrmaid/editor-config/master/src/assets/.editorconfig
+```
+
+### Using NPX
+
+Use the following command to install `.editorconfig` in the _current_ directory.
 
 ```bash
 npx @vapurrmaid/editor-config
 ```
 
-### NPM
+### NPM or Yarn
 
 The following simply installs the assets in `node_modules`:
 
 ```bash
+# yarn
+yarn add -D @vapurrmaid/editor-config
+
+# npm
 npm install --save-dev @vapurrmaid/editor-config
 ```
 
@@ -38,6 +48,3 @@ While I'm an open-source contributor and love collaboration, I use these
 configurations in my personal/hobby projects. Therefore, I'm generally
 not accepting contributions outside of security-related concerns. Please
 feel free to fork your own version or use these configurations.
-
-> I have disabled issues for this repository. If you'd like to get in touch,
-> feel free to email: vapurrmaid@pm.me
